@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.25rem;
+}
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    block-size: 100px;
+    inline-size: 300px;
+    background-color: hsl(212, 33%, 89%);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    letter-spacing: 0.25rem;
+}
+
+.tab-btn:hover:not(.activeButtonClass) {
+    background: var(hsl(205, 100%, 96%));
+    color: var(#49a6e9);
+  }
+
+.tab-btn.activeButtonClass {
+    background: var(#fff);
+  }
+
